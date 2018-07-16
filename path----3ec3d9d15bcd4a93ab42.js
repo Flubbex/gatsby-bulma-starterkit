@@ -1,2 +1,2 @@
-webpackJsonp([60335399758886],{102:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Gatsby + Bulma Starter Kit"}}},layoutContext:{}}}});
+webpackJsonp([60335399758886],{104:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Gatsby + Bulma Starter Kit"}}},layoutContext:{}}}});
 //# sourceMappingURL=path----3ec3d9d15bcd4a93ab42.js.map
