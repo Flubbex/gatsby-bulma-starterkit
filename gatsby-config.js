@@ -1,6 +1,8 @@
 module.exports = {
+  pathPrefix: "/gatsy-bulma-starterkit",
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Gatsby + Bulma Starter Kit',
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+  plugins: ['gatsby-plugin-react-helmet',
+            'gatsby-plugin-sass']
 }

@@ -1,16 +1,23 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Header = ({ siteTitle }) => (
-  <div className='hero is-primary'>
-    <div className='hero-body'>
-      <h1 className='is-size-1'>
-        <Link to="/" >
-          {siteTitle}
-        </Link>
+import Hero from 'react-bulma-components/lib/components/hero'
+import RoutedNavbar from './navbar'
+
+
+const Header = (props={}) => (
+  <Hero color="primary">
+    <Hero.Body>
+      <h1 className='is-size-1 title'>
+        <Link to="/" > {props.siteTitle}  </Link>
       </h1>
-    </div>
-  </div>
+    </Hero.Body>
+    <Hero.Footer>
+    
+      <RoutedNavbar {...props} />
+    
+    </Hero.Footer>
+  </Hero>
 )
 
 export default Header
